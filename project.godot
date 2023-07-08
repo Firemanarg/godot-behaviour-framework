@@ -14,6 +14,14 @@ config/name="Godot Behaviours Framework"
 config/features=PackedStringArray("4.0", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+BehaviourManager="*res://addons/godot_behaviours_framework/core/behaviour_manager.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_behaviours_framework/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
