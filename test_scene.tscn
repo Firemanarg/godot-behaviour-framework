@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfd62rawatgvg"]
+
+[ext_resource type="Script" path="res://addons/godot_behaviours_framework/core/behaviour.gd" id="1_jqahx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Behaviour" type="Node" parent="."]
+script = ExtResource("1_jqahx")
+behaviour_callback = 1
