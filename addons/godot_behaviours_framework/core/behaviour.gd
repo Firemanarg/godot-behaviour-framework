@@ -69,8 +69,8 @@ func _set_callback_state(state: BehaviourProcessCallback) -> void:
 	_update_callback_state()
 
 
-func _set_enabled(is_enabled: bool) -> void:
-	self.is_enabled = is_enabled
+func _set_enabled(enabled: bool) -> void:
+	is_enabled = enabled
 	_update_callback_state()
 
 
